@@ -1,5 +1,6 @@
-couple.jpg is the only photo on the site.
-It is shown in the arch portrait after "Open Invitation" and is also the
-share / Open Graph thumbnail (WhatsApp, Telegram, link previews) and favicon.
+couple.jpg  - the only photo on the site (arch portrait after "Open Invitation") and favicon.
+share.jpg   - link-preview image for WhatsApp / Telegram / Facebook (og:image in index.html).
+              Must stay landscape 1200x630 and under ~300 KB for WhatsApp's large preview.
+              WhatsApp caches previews per image URL, so use a new file name when replacing it.
 
-JPG recommended, portrait orientation, under ~500 KB for fast loading.
+JPG recommended, under ~500 KB each for fast loading.
