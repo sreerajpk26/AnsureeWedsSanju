@@ -84,9 +84,10 @@ Live URL: `https://<username>.github.io/AnsureeWedsSanju/`
 ## Couple photo (free — no Firebase Storage)
 
 ```
-public/photos/couple.jpg   ← arch portrait, share thumbnail (WhatsApp / Open Graph) and favicon
+public/photos/couple.jpg   ← arch portrait and favicon
+public/photos/share.jpg    ← link preview (WhatsApp / Open Graph), landscape 1200x630, < 300 KB
 ```
 
 Then rebuild / redeploy. The path lives in `src/config.js` (`COUPLE_PHOTO`).
 
-After Pages is live, for reliable WhatsApp previews update `og:image` / `twitter:image` in `index.html` to the full URL, e.g. `https://<username>.github.io/AnsureeWedsSanju/photos/couple.jpg`.
+After Pages is live, for reliable WhatsApp previews update `og:image` / `twitter:image` in `index.html` to the full URL, e.g. `https://<username>.github.io/AnsureeWedsSanju/photos/share.jpg`.
