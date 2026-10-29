@@ -20,6 +20,13 @@ export default function Families() {
                 <strong>MOTHER</strong>
                 {f.mother}
                 <div className="family-diamond">◆</div>
+                {f.sibling && (
+                  <>
+                    <strong>{f.sibling.label}</strong>
+                    {f.sibling.name}
+                    <div className="family-diamond">◆</div>
+                  </>
+                )}
                 <strong>RESIDENCE</strong>
                 {f.residence}
               </div>

@@ -39,6 +39,7 @@ export const FAMILIES = [
     name: 'Anusree PK',
     father: 'P K Ramachandran',
     mother: 'Sarina M',
+    sibling: { label: 'BROTHER', name: 'Sreeraj PK' },
     residence: 'Karnikaram, Palayad, Thalassery',
   },
   {
@@ -46,6 +47,7 @@ export const FAMILIES = [
     name: 'Sanju Sajeev',
     father: 'Late C Sajeev',
     mother: 'Lalitha Sajeev',
+    sibling: { label: 'SISTER', name: 'Aneeja Sajeev' },
     residence: 'Shaileswaram Nivas, Mapranam, Irinjalakuda',
   },
 ];
