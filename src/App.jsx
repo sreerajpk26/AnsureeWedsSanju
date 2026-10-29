@@ -4,9 +4,9 @@ import Invite from './components/Invite';
 import Countdown from './components/Countdown';
 import Portrait from './components/Portrait';
 import Events from './components/Events';
+import Verse from './components/Verse';
 import Families from './components/Families';
 import Wishes from './components/Wishes';
-import Footer from './components/Footer';
 import MonogramBadge from './components/MonogramBadge';
 import MusicControl from './components/MusicControl';
 import Toast from './components/Toast';
@@ -38,9 +38,9 @@ export default function App() {
         <Invite />
         <Countdown />
         <Events />
+        <Verse />
         <Families />
         <Wishes opened={opened} showToast={showToast} />
-        <Footer />
       </div>
 
       <Toast message={toast} onDone={() => setToast('')} />

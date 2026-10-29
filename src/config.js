@@ -8,8 +8,6 @@ export const WEDDING = {
   dateLabel: '31 · JANUARY · 2027',
   dateTime: '2027-01-31T10:30:00+05:30',
   landingVenue: "BRIDE'S RESIDENCE, THALASSERY",
-  footerLine: '31 JANUARY 2027 · THALASSERY',
-  compliments: 'Sreeraj P K, Rajesh M, kith and kin',
 };
 
 export const EVENTS = [
@@ -53,6 +51,13 @@ export const FAMILIES = [
 
 // Link previews use public/photos/share-v3.jpg instead (see index.html).
 export const COUPLE_PHOTO = 'photos/couple.jpg';
+
+export const VERSE = {
+  sanskrit: 'समानी व आकूतिः समाना हृदयानि वः । समानमस्तु वो मनो यथा वः सुसहासति ॥',
+  english:
+    '"United be your purpose, harmonious your hearts, united your minds — so that you may live together in accord."',
+  reference: '— RIG VEDA 10.191.4',
+};
 
 // Realtime Database path for this couple
 export const WISH_PATH = 'ansuree-sanju/wishes';

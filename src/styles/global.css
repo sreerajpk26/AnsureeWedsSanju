@@ -217,7 +217,8 @@ button {
   .details,
   .wishes,
   .portrait,
-  .countdown {
+  .countdown,
+  .verse-section {
     padding-left: 44px;
     padding-right: 44px;
   }
