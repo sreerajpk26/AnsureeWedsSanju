@@ -14,7 +14,6 @@ export const WEDDING = {
 
 export const EVENTS = [
   {
-    num: '01',
     title: 'WEDDING',
     date: '31.01.2027 · Sunday',
     dateSub: '1202 Makaram 17',
@@ -30,8 +29,8 @@ export const CONTACTS = [
   { label: '94957 28020', tel: '+919495728020' },
 ];
 
-// Shown below the event card, as on the printed invitation.
-export const MARRIAGE_NOTE = 'Presence in blessings only';
+// Shown inside the event card, as on the printed invitation.
+export const EVENT_NOTE = 'Presence in blessings only';
 
 export const FAMILIES = [
   {
@@ -52,15 +51,8 @@ export const FAMILIES = [
   },
 ];
 
-// Also used as the social-share image in index.html.
+// Link previews use public/photos/share-v3.jpg instead (see index.html).
 export const COUPLE_PHOTO = 'photos/couple.jpg';
-
-export const VERSE = {
-  sanskrit: 'समानी व आकूतिः समाना हृदयानि वः । समानमस्तु वो मनो यथा वः सुसहासति ॥',
-  english:
-    '"United be your purpose, harmonious your hearts, united your minds — so that you may live together in accord."',
-  reference: '— RIG VEDA 10.191.4',
-};
 
 // Realtime Database path for this couple
 export const WISH_PATH = 'ansuree-sanju/wishes';

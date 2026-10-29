@@ -4,7 +4,6 @@ import Invite from './components/Invite';
 import Countdown from './components/Countdown';
 import Portrait from './components/Portrait';
 import Events from './components/Events';
-import Verse from './components/Verse';
 import Families from './components/Families';
 import Wishes from './components/Wishes';
 import Footer from './components/Footer';
@@ -39,7 +38,6 @@ export default function App() {
         <Invite />
         <Countdown />
         <Events />
-        <Verse />
         <Families />
         <Wishes opened={opened} showToast={showToast} />
         <Footer />

@@ -1,17 +1,7 @@
 .details {
   background: var(--bg2);
-  padding: 76px 24px 66px;
+  padding: 56px 24px 56px;
   border-bottom: 1px solid var(--rule);
-}
-.details-lede {
-  text-align: center;
-  color: var(--muted);
-  font-size: 19px;
-  font-weight: 600;
-  max-width: 38ch;
-  margin: 0 auto 36px;
-  line-height: 1.7;
-  font-style: italic;
 }
 .event-card {
   background: #fff;
@@ -25,30 +15,16 @@
 .event-head {
   display: flex;
   align-items: center;
-  gap: 12px;
+  justify-content: center;
   padding-bottom: 13px;
   margin-bottom: 13px;
   border-bottom: 1px dashed rgba(163, 129, 47, 0.25);
 }
-.event-num {
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  background: var(--green);
-  color: #f7f2e7;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: 'Cinzel', serif;
-  font-size: 10px;
-  font-weight: 500;
-  flex-shrink: 0;
-}
 .event-title {
   font-family: 'Cinzel', serif;
-  letter-spacing: 0.26em;
+  letter-spacing: 0.32em;
   font-size: 10.5px;
-  color: var(--ink);
+  color: var(--gold);
   font-weight: 500;
 }
 .event-row {
@@ -114,17 +90,14 @@
 .contact-link:hover {
   color: var(--gold);
 }
-.marriage-note {
-  max-width: 520px;
-  margin: 22px auto 0;
-  padding: 16px 18px;
-  border: 1px dashed rgba(163, 129, 47, 0.35);
-  border-radius: 8px;
+.event-note {
+  margin-top: 8px;
+  padding-top: 12px;
+  border-top: 1px dashed rgba(163, 129, 47, 0.25);
   text-align: center;
   font-style: italic;
   font-size: 16.5px;
   color: var(--muted);
-  line-height: 1.75;
 }
 .event-actions {
   display: flex;

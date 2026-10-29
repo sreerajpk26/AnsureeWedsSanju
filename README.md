@@ -9,7 +9,7 @@ Built with **React + Vite**.
 - Live countdown to the muhurtham
 - Single arch-framed couple portrait — image shipped with the site (no Firebase Storage needed)
 - Wedding details with Google Maps link (plus a short note below the card)
-- Vedic verse and family details
+- Family details
 - **Wishes wall** — guests can send blessings (Firebase Realtime Database only, free Spark plan)
 - No RSVP / no WhatsApp sections
 
@@ -37,7 +37,6 @@ Built with **React + Vite**.
         ├── Countdown.jsx / .css
         ├── Portrait.jsx / .css
         ├── Events.jsx / .css
-        ├── Verse.jsx / .css
         ├── Families.jsx / .css
         ├── Wishes.jsx / .css
         ├── Footer.jsx / .css
