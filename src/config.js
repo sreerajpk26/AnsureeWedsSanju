@@ -46,7 +46,7 @@ export const FAMILIES = [
     name: 'Sanju Sajeev',
     father: 'Late C Sajeev',
     mother: 'Lalitha Sajeev',
-    residence: 'Shaileswaram Nivas, Mapranam, Irinjalakkuda',
+    residence: 'Shaileswaram Nivas, Mapranam, Irinjalakuda',
   },
 ];
 
