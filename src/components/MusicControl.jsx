@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import './MusicControl.css';
 
-const AUDIO_SRC = `${import.meta.env.BASE_URL}audio/invitation.mp3`;
+const AUDIO_SRC = `${import.meta.env.BASE_URL}audio/narumugaye.m4a`;
 
 export default function MusicControl({ active }) {
   const audioRef = useRef(null);
