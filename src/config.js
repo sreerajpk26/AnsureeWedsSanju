@@ -28,7 +28,7 @@ export const CONTACTS = [
 ];
 
 // Shown inside the event card, as on the printed invitation.
-export const EVENT_NOTE = 'Presence in blessings only';
+export const EVENT_NOTE = 'Presents in blessings only';
 
 export const FAMILIES = [
   {
